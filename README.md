@@ -1,32 +1,32 @@
-# BrandCraft — AI-Powered Branding Automation System
-## Complete Setup Guide
+BrandCraft — AI-Powered Branding Automation System
+Complete Setup Guide
 
----
 
-## 📁 Project Structure
 
-```
+📁 Project Structure
+
+
 brandcraft/
 ├── index.html      ← Full frontend (HTML + CSS + JS) — open in browser
 ├── app.py          ← Python Flask backend API
 ├── .env            ← Environment variables (create this)
 └── README.md       ← This file
-```
 
----
 
-## 🚀 Quick Start
 
-### 1. Run Frontend Only (No Backend Needed)
+
+🚀 Quick Start
+
+1. Run Frontend Only (No Backend Needed)
 Just open `index.html` in your browser — everything works with mock data!
 
 Demo login:
 - Email: `demo@brandcraft.ai`
 - Password: `password123`
 
----
 
-### 2. Run with Python Backend
+
+2. Run with Python Backend
 
 **Install dependencies:**
 ```bash
@@ -58,8 +58,7 @@ if (data.token) { localStorage.setItem('token', data.token); ... }
 ```
 
 ---
-
-## 🔌 API Endpoints
+🔌 API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -80,48 +79,42 @@ if (data.token) { localStorage.setItem('token', data.token); ... }
 
 ---
 
-## 🌟 Feature Walkthrough
+🌟 Feature Walkthrough
 
-### Step 1 — Dashboard
+Step 1 — Dashboard
 - Select industry (12 options)
 - Choose target audience (8 options)
 - Pick brand personality traits
 - Set color style preference
 - Enter brand name, tone, boldness sliders
 
-### Step 2 — Brand Identity
+Step 2 — Brand Identity
 - AI-generated logo with 4 style variants (Modern, Minimal, Bold, Retro)
 - 5 AI taglines with quality scores
 - AI Brand Score (0-100) with 5 metrics breakdown
 - 4 color palette options
 - Typography pairing suggestions
 
-### Step 3 — Business Details
+Step 3 — Business Details
 - Owner name, phone, email, website
 - Location (city, state, country, PIN)
 - Social media handles
 - Live brand card preview (updates as you type)
 - Download brand card button
 
-### Step 4 — AI Insights
+ Step 4 — AI Insights
 - Social hashtags for Instagram, Twitter, LinkedIn
 - 6 content creation ideas with platform/type/copy
 - 5-step business scaling strategy
 - Market intelligence with progress bars
-
-### Step 5 — Subscriptions
-- Starter (Free), Pro (₹999/mo), Enterprise (₹4,999/mo)
-- Monthly/Annual toggle (30% annual discount)
-- Post-selection success celebration screen
-
-### Chatbot
+Chatbot
 - Floating AI assistant (bottom-right)
 - Quick chip prompts
 - Contextual branding advice
 
 ---
 
-## 🛠 Production Upgrades
+🛠 Production Upgrades
 
 | Feature | Tool |
 |---------|------|
@@ -135,7 +128,7 @@ if (data.token) { localStorage.setItem('token', data.token); ... }
 
 ---
 
-## 📦 Requirements
+ 📦 Requirements
 
 ```
 flask==3.0.0
